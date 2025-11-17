@@ -7,7 +7,7 @@ const kalam = Kalam({
 });
 
 export const metadata = {
-  title: "Happy Birthday!",
+  title: "Happy Birthday Geethika!",
   description: "Celebrate your day with joy and happiness!",
 };
 
