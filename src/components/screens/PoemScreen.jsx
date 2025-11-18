@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 import GradientButton from "../GradientButton"
 import { ArrowRight } from "lucide-react";
 
-export default function MessageScreen({ onNext }) {
+export default function PoemScreen({ onNext }) {
     const [flipped, setFlipped] = useState(false);
 
     return (
