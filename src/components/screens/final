@@ -1,0 +1,52 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
+const Final = () => {
+  return (
+    <div style={styles.container}>
+      <div style={styles.box}>
+        <h2>One Last Thing 💗</h2>
+        <p>
+          Before you go… <br />
+          I wanted to add something special. <br />
+          A place where both our poems stay together forever.
+        </p>
+        <Link to="/" style={styles.btn}>Back to Home</Link>
+      </div>
+    </div>
+  );
+};
+
+const styles = {
+  container: {
+    background: "#000",
+    color: "white",
+    minHeight: "100vh",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    textAlign: "center",
+    padding: "20px",
+  },
+  box: {
+    background: "rgba(255,255,255,0.05)",
+    border: "1px solid rgba(255,255,255,0.2)",
+    padding: "40px",
+    borderRadius: "14px",
+    width: "80%",
+    maxWidth: "500px",
+    backdropFilter: "blur(5px)",
+  },
+  btn: {
+    display: "inline-block",
+    marginTop: "30px",
+    padding: "10px 20px",
+    background: "#ff8af2",
+    color: "black",
+    borderRadius: "8px",
+    textDecoration: "none",
+    fontWeight: "bold",
+  },
+};
+
+export default Final;
