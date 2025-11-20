@@ -46,3 +46,19 @@ Teddy Bear! (aka Doraemon)
         </div>
     )
 }
+import { Link } from "react-router-dom";
+
+// somewhere at the bottom of your JSX return
+<Link
+  to="/poems"
+  style={{
+    padding: "10px 20px",
+    background: "#ff8af2",
+    color: "black",
+    borderRadius: "8px",
+    textDecoration: "none",
+    fontWeight: "bold",
+  }}
+>
+  → Our Poems
+</Link>
