@@ -18,7 +18,7 @@ export default function IntroScreen({ onNext }) {
                         style={{
                             filter: "drop-shadow(0 0 20px rgba(255,105,180,0.4))",
                         }}>
-                        My Geethika was born today, 16 years ago!
+                        My Sweetheart was born today, 16 years ago!
                     </h1>
                     <p className="mt-4 text-xl text-pink-200">A surprise awaits, just for you...😘 🎁.</p>
                 </div>
