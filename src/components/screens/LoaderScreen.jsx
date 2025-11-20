@@ -43,7 +43,7 @@ export default function LoaderScreen({ onDone }) {
                 animate={{ opacity: [0.8, 1, 0.8] }}
                 transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
             >
-                Crafting your special moment...
+                Making your birthday as special as you make my world, Geethika❤️🎁🎂
             </motion.h1>
         </div>
     )
